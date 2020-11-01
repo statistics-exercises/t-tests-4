@@ -10,7 +10,7 @@ When n is large the t-distribution and the normal distribution are almost identi
 
 Unlike the other distributions that you have learned about in this course, you do not need to memorise the form of the probability density function for this distribution.  You instead need to know how to extract values for this probability density from the statistical tables.  It is also useful if you know how to exploit this function in your python programs.
 
-With that in mind, I have written code in the panel on the left to plot the probability density function for a normal random variable with a variance of 1/3.  This distribution would be the one that the central limit theorem tells us that a sum of three standard normal random variables would be from.  __Your task is to plot a similar curve for the t-distribution with 2 degrees of freedom.__  Notice that you can extract the value of the cumulative distribution function at x for the t-distribution with `v` degrees of freedom using the python command:
+With that in mind, I have written code in the panel on the left to plot the probability density function for a normal random variable with a variance of 1/3.  This distribution would be the one that the central limit theorem tells us that a sum of three standard normal random variables would be from.  __Your task is to plot a similar curve for the t-distribution with 2 degrees of freedom.__  Notice that you can extract the value of the cumulative distribution function at `x` for the t-distribution with `v` degrees of freedom using the python command:
 
 ````
 y = scipy.stats.t.cdf( x, v )
